@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="School0905ModelStoreContainer" CdmEntityContainer="School0905Entities">
+    <EntitySetMapping Name="StudentDataAccesses">
+      <EntityTypeMapping TypeName="School0905Model.StudentDataAccess">
+        <MappingFragment StoreEntitySet="StudentDataAccess">
+          <ScalarProperty Name="SId" ColumnName="SId" />
+          <ScalarProperty Name="SName" ColumnName="SName" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
